@@ -1,4 +1,3 @@
 # starter-todo
-Starter project for COMP4711 lab 5, Fall 2017
+It works. We fixed your mistake, and updated the code to make it more efficient and fix other bugs.
 
-It works. We fixed your mistake.
