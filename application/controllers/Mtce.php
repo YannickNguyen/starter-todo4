@@ -60,6 +60,7 @@ class Mtce extends Application {
             }
         }
         $this->data['pagination'] = $this->pagenav($num);
+        //parsing information
         $role = $this->session->userdata('userrole');
         if ($role == ROLE_OWNER)
             $this->data['pagination'] .= $this->parser->parse('itemadd', [], true);
