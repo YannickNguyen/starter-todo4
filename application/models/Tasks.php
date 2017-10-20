@@ -18,8 +18,7 @@ class Tasks extends CSV_Model {
         parent::__construct(APPPATH . '../data/tasks.csv', 'id');
     }
 
-    
-        // return -1, 0, or 1 of $a's category name is earlier, equal to, or later than $b's
+    // return -1, 0, or 1 of $a's category name is earlier, equal to, or later than $b's
     function orderByCategory($a, $b) {
         if ($a->group < $b->group)
             return -1;
@@ -28,7 +27,7 @@ class Tasks extends CSV_Model {
         else
             return 0;
     }
-    
+
     function getCategorizedTasks() {
         // extract the undone tasks
         foreach ($this->all() as $task) {
@@ -49,5 +48,17 @@ class Tasks extends CSV_Model {
 
         return $converted;
     }
+
+    // provide form validation rules
+    public function rules() {
+        $config = array(
+            ['field' => 'task', 'label' => 'TODO task', 'rules' => 'alpha_numeric_spaces|max_length[64]'],
+            ['field' => 'priority', 'label' => 'Priority', 'rules' => 'integer|less_than[4]'],
+            ['field' => 'size', 'label' => 'Task size', 'rules' => 'integer|less_than[4]'],
+            ['field' => 'group', 'label' => 'Task group', 'rules' => 'integer|less_than[5]'],
+        );
+        return $config;
+    }
+    
 
 }
