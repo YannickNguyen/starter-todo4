@@ -18,4 +18,4 @@ application/logs/*
 /nbproject/private/
 /nbproject/
 /tmp/
-/tests/
+/tests/reports/
