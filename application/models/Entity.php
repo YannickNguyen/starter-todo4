@@ -20,15 +20,11 @@ class Entity {
         return $this;
     }
 	
-	public function __get($key) {
+    public function __get($key) {
         $method = 'get' . str_replace(' ', '', ucwords(str_replace(['-', '_'], ' ', $key)));
 		if (method_exists($this, $method)) {
 		    $this->$method();
             return $this;
         }
-		
-        // Otherwise, just set the property value directly.
-        $this->$key = $value;
-        return $this;
     }
 }
