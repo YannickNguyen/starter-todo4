@@ -1,90 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-
-
 <tasks>
-    <task>
-        <id>1</id>
-        <tname>COMP1234 assignment edit </tname>
-        <priority>3</priority>
-        <size>2</size>
-        <group>2</group>
-        <deadline>20170219</deadline>
-        <status>2</status>
-        <flag></flag>
-    </task> 
-        <task>
-        <id>2</id>
-        <tname>Mow the lawn/tname>
-        <priority>2</priority>
-        <size>2</size>
-        <group>1</group>
-        <deadline></deadline>
-        <status>2</status>
-        <flag></flag>
-    </task>    
-        <task>
-        <id>3</id>
-        <tname>Wash the car</tname>
-        <priority>2</priority>
-        <size>2</size>
-        <group>1</group>
-        <deadline></deadline>
-        <status>2</status>
-        <flag></flag>
-    </task>    
-        <task>
-        <id>4</id>
-        <tname>Get Triggered</tname>
-        <priority>3</priority>
-        <size>3</size>
-        <group>3</group>
-        <deadline></deadline>
-        <status>1</status>
-        <flag></flag>
-    </task>    
-        <task>
-        <id>7</id>
-        <tname>Canucks hockey game</tname>
-        <priority>3</priority>
-        <size>3</size>
-        <group>3</group>
-        <deadline>20170305</deadline>
-        <status>2</status>
-        <flag></flag>
-    </task>    
-        <task>
-        <id>8</id>
-        <tname>Buy steel toed boots</tname>
-        <priority>2</priority>
-        <size>1</size>
-        <group>3</group>
-        <deadline></deadline>
-        <status>1</status>
-        <flag></flag>
-    </task>    
-        <task>
-        <id>9</id>
-        <tname>Learn French</tname>
-        <priority>1</priority>
-        <size>3</size>
-        <group>3</group>
-        <deadline>20161231</deadline>
-        <status>1</status>
-        <flag></flag>
-    </task>    
-        <task>
-        <id>10</id>
-        <tname>Hit the gym</tname>
-        <priority>2</priority>
-        <size>1</size>
-        <group>4</group>
-        <deadline></deadline>
-        <status>1</status>
-        <flag></flag>
-    </task>       
+	<task>
+		<id>1</id>
+		<task>COMP1234 assignment edit </task>
+		<priority>3</priority>
+		<size>2</size>
+		<group>2</group>
+		<deadline>20170219</deadline>
+		<status>2</status>
+		<flag/>
+	</task>
+	<task>
+		<id>2</id>
+		<task>Mow the lawn</task>
+		<priority>2</priority>
+		<size>2</size>
+		<group>1</group>
+		<deadline/>
+		<status>2</status>
+		<flag/>
+	</task>
+	<task>
+		<id>3</id>
+		<task>Wash the car</task>
+		<priority>2</priority>
+		<size>2</size>
+		<group>1</group>
+		<deadline/>
+		<status>2</status>
+		<flag/>
+	</task>
+	<task>
+		<id>4</id>
+		<task>Get Triggered</task>
+		<priority>3</priority>
+		<size>3</size>
+		<group>3</group>
+		<deadline/>
+		<status>1</status>
+		<flag/>
+	</task>
+	<task>
+		<id>7</id>
+		<task>Canucks hockey game</task>
+		<priority>3</priority>
+		<size>3</size>
+		<group>3</group>
+		<deadline>20170305</deadline>
+		<status>2</status>
+		<flag/>
+	</task>
+	<task>
+		<id>8</id>
+		<task>Buy steel toed boots</task>
+		<priority>2</priority>
+		<size>1</size>
+		<group>3</group>
+		<deadline/>
+		<status>1</status>
+		<flag/>
+	</task>
+	<task>
+		<id>9</id>
+		<task>Learn French</task>
+		<priority>1</priority>
+		<size>3</size>
+		<group>3</group>
+		<deadline>20161231</deadline>
+		<status>1</status>
+		<flag/>
+	</task>
+	<task>
+		<id>10</id>
+		<task>Hit the gym</task>
+		<priority>2</priority>
+		<size>1</size>
+		<group>4</group>
+		<deadline/>
+		<status>1</status>
+		<flag/>
+	</task>
+	<task>
+		<id>11</id>
+		<task>Teststore</task>
+		<priority>1</priority>
+		<size>1</size>
+		<group>1</group>
+		<deadline/>
+		<status>1</status>
+		<flag/>
+		<submit>Update the TODO task</submit>
+	</task>
 </tasks>
