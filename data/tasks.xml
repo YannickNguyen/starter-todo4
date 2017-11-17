@@ -9,7 +9,7 @@ and open the template in the editor.
 <tasks>
     <task>
         <id>1</id>
-        <tname>COMP1234 assignment edit</tname>
+        <tname>COMP1234 assignment edit </tname>
         <priority>3</priority>
         <size>2</size>
         <group>2</group>
