@@ -18,7 +18,7 @@ class Mtce extends Application {
     public function index() {
         $this->page(1);
     }
-
+    
     // Show a single page of todo items
     private function show_page($tasks) {
         $role = $this->session->userdata('userrole');
@@ -106,7 +106,7 @@ class Mtce extends Application {
         if (!isset($this->data['error'])) {
             $this->data['error'] = '';
         }
-
+        
         $fields = array(
             'ftask' => form_label('Task description') . form_input('task', $task->task),
             'fpriority' => form_label('Priority') . form_dropdown('priority', $this->app->priority(), $task->priority),
